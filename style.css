@@ -1,0 +1,18 @@
+#carouselExampleCaptions {
+    max-width: 40%;
+}
+
+.carousel-control-next1-icon {
+    display: none;
+}
+
+#carouselExampleCaptions .icon {
+    color: rgb(255, 255, 255);
+    background-color: rgba(143, 140, 140, 0.521);
+    opacity: 0;
+    transition: opacity 0.7 ease;
+}
+
+#carouselExampleCaptions:hover .icon {
+    opacity: 1;
+}

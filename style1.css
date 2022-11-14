@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-items .link-image:hover {
+    /* transform: scale(1.03); */
+    opacity: 0.8;
+}
+
+.card-items .link-btn,
+.card-items .link-image,
+.card {
+    transition: 0.5s ease;
+}
+
+.card-items .link-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width:992px) {
+    .card-items {
+        width: 20%;
+    }
+}
